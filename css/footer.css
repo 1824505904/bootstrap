@@ -1,0 +1,93 @@
+.footer {
+    padding: 4em 0;
+    background-color: #242424;
+}
+.get_in_touch h3, .ftr_navi h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.4em;
+    margin-bottom: .5em;
+    color: #fff;
+}
+.ftr_navi.ftr ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.ftr_navi ul li {
+    display: block;
+}
+.ftr_navi ul li a {
+    display: block;
+    padding: 5px 0;
+    color: #848484;
+    font-size: 14px;
+}
+.get_in_touch p {
+    color: #848484;
+    font-size: 14px;
+    padding: 5px 0;
+}
+.get_in_touch a {
+    color: #848484;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+.ftr-logo a h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    color: #fff;
+}
+.ftr-logo a h3 span {
+    font-size: 15px;
+}
+.ftr-logo ul{
+	padding: 1em 0;
+}
+.ftr-logo ul li {
+    display: inline-block;
+}
+.ftr-logo ul li a.f {
+    background: url(../img/img-sp.png) no-repeat -5px -13px;
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+.ftr-logo ul li a.f1 {
+    background: url(../img/img-sp.png) no-repeat -48px -13px;
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+.ftr-logo ul li a.f2 {
+    background: url(../img/img-sp.png) no-repeat -86px -13px;
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+.ftr-logo ul li a.f:hover {
+    background: url(../img/img-sp.png) no-repeat -5px -59px;
+    display: block;
+}
+.ftr-logo ul li a.f1:hover {
+    background: url(../img/img-sp.png) no-repeat -48px -58px;
+    display: block;
+}
+.ftr-logo ul li a.f2:hover {
+    background: url(../img/img-sp.png) no-repeat -86px -58px;
+    display: block;
+}
+.ftr_navi ul li a:hover, .get_in_touch a:hover, .ftr-logo p a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.ftr-logo p {
+    margin: 0em;
+    color: #848484;
+    line-height: 1.8em;
+    font-size: 0.95em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.ftr-logo a{
+    color: #fff;
+}

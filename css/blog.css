@@ -1,0 +1,223 @@
+.banner1{
+	background: url(../img/banner.jpg)no-repeat 0px 0px;
+	background-size:cover;
+	min-height: 300px;
+}
+.blog{padding: 5em 0;}
+.blog-left h3, .blog-right h3, .recent-posts h4, .comments h4{
+	color: #6ea145;
+    font-size: 2em;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blog-left-grid{padding: 2em 0;}
+.blog-left-grid h4 {
+    text-transform: capitalize;
+    color: #6ea145;
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blog-left-grid h4 a {
+    color: #c6c5c0;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blog-left-grid p {
+    font-size: 14px;
+    color: #999;
+    margin: .5em 0 1em;
+    line-height: 1.8em;
+}
+.blog-left-grid ul {
+    padding: 2em 0 4em;
+}
+.blog-left-grid ul li {
+    display: inline-block;
+    margin: 0 2em 0 0;
+}
+.blog-left-grid ul li a {
+    font-size: 1em;
+    color: #c6c5c0;
+    text-decoration: none;
+    padding-left: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blog-left-grid ul li a i {
+    left: -17px;
+}
+.blog-left-grid ul li a:hover {
+    color: #000;
+    text-decoration: none;
+}
+.more a{
+	    font-size: 16px;
+    color: #FFF;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: #6ea145;
+    font-family: 'Josefin Sans', sans-serif;
+    -webkit-transition: .5s all;
+}
+.m1 a:hover {
+    background: #c6c5c0;
+    color: #fff;
+}
+.blog-left-grid:nth-child(3) {
+    margin: 2em 0;
+}
+.blog-left-grid a img {
+    padding: .5em;
+    border: 1px solid #F2F2F2;
+}
+.in-form input[type="password"], .in-form input[type="text"] {
+    outline: none;
+    border: 1px solid #C9C8C9;
+    width: 100%;
+    padding: 12px 10px;
+    color: #C9C8C9;
+    font-size: 14px;
+    background: none;
+}
+
+.in-form input[type="text"] {
+    margin: 2em 0 0;
+}
+.in-form input[type="password"] {
+    margin: 1em 0;
+}
+.ckeck-bg {
+    position: relative;
+    min-height: 120px;
+}
+.checkbox-form {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+.check-left {
+    float: left;
+}
+.check {
+    margin: .5em 0;
+}
+.checkbox:last-child {
+    margin-bottom: 0;
+}
+.checkbox {
+    position: relative;
+    font-size: 14px;
+    color: #c6c5c0;
+    font-weight: 500;
+    padding-left: 38px !important;
+    line-height: 27px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}
+.checkbox input[type="checkbox"]{
+	position: absolute;
+	margin-left: -20px;
+}
+.checkbox i {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    outline: none;
+    border: 2px solid #DFD6D6;
+}
+.checkbox input {
+    position: absolute;
+    left: -9999px;
+}
+.check-right {
+    float: right;
+}
+.checkbox-form input[type="submit"] {
+    border: none;
+    outline: none;
+    color: #FFF;
+    padding: 10px 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 1em 0 0 0;
+    -webkit-appearance: none;
+    background: #6ea145;
+    -webkit-transition: 0.5s all;
+}
+.recent-posts-info {
+    margin-bottom: 4em;
+}
+.recent-posts-info {
+    margin: 2em 0 4em;
+}
+.posts-left {
+    float: left;
+    width: 35%;
+}
+.posts-right {
+    float: right;
+    width: 60%;
+}
+.posts-right lable {
+    font-size: 14px;
+    font-weight: 500;
+    color: #989595;
+}
+.posts-right h5 {
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: .5em 0;
+}
+.posts-right h5 a {
+    color: #6ea145;
+}
+.posts-right p {
+    color: #999;
+    margin: 0 0 1em 0;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #6ea145;
+    border: none !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.comments-info {
+    margin: 2em 0 0;
+}
+.cmnt-icon-left {
+    float: left;
+    width: 25%;
+    margin-right: 1em;
+}
+.comments{margin-top: 65px;}
+.cmnt-icon-right {
+    float: right;
+    width: 71%;
+}
+.cmnt-icon-right p {
+    margin: 1em 0 0;
+    font-size: 14px;
+    color: #555555;
+}
+.cmnt-icon-right p a {
+    color: #6ea145;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.comments-info p.cmmnt {
+    margin: 1em 0 0 0;
+    font-size: 14px;
+    line-height: 1.8em;
+    color: #999;
+}
+.comments-info.cmnts-mddl {
+    margin: 2em 0;
+}

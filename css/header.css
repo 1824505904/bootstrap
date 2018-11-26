@@ -1,0 +1,115 @@
+.header-left a {
+	padding: 2em 1em 1em;
+	background: #c6c5c0;
+	color: #fff;
+	font-size: 2em;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.header-left a i {
+	font-size: 1em;
+	color: #fff;
+	left: -10px;
+	top: 5px;
+}
+
+.header-left a span {
+	display: block;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-left1 {
+	float: left;
+	margin-left: 12em;
+}
+
+.header-left1 ul li {
+	display: inline-block;
+	margin: 0 0 0 10px;
+	float: left;
+}
+
+.header-left1 ul li.active a {
+	background: #6ea145;
+	color: #fff;
+}
+
+.header-left1 ul li a {
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 45px 30px;
+	display: block;
+}
+
+.header-left1 ul li a i {
+	font-size: 1em;
+	color: #fff;
+	display: block;
+	text-align: center;
+	margin: 0.5em 0 0;
+}
+
+span.menu {
+	display: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.header-right {
+	float: right;
+}
+
+.header-right ul {
+	padding: 4em 0 0;
+}
+
+.header-right ul li {
+	display: inline-block;
+}
+
+.header-right ul li a.facebook {
+	background: url(../img/img-sp.png) no-repeat -5px -13px;
+	display: block;
+	height: 32px;
+	width: 32px;
+}
+
+.header-right ul li a.g {
+	background: url(../img/img-sp.png) no-repeat -48px -13px;
+	display: block;
+	height: 32px;
+	width: 32px;
+}
+
+.header-right ul li a.twitter {
+	background: url(../img/img-sp.png) no-repeat -86px -13px;
+	display: block;
+	height: 32px;
+	width: 32px;
+}
+
+.header-right ul li a.facebook:hover {
+	background: url(../img/img-sp.png) no-repeat -5px -59px;
+	display: block;
+}
+
+.header-right ul li a.g:hover {
+	background: url(../img/img-sp.png) no-repeat -48px -58px;
+	display: block;
+}
+
+.header-right ul li a.twitter:hover {
+	background: url(../img/img-sp.png) no-repeat -86px -58px;
+	display: block;
+}

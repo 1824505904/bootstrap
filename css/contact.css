@@ -1,0 +1,78 @@
+.banner1{
+	background: url(../img/banner.jpg)no-repeat 0px 0px;
+	background-size:cover;
+	min-height: 300px;
+}
+.blog, .single, .typo, .contact, .service, .servc {
+    padding: 5em 0;
+}
+.blog-left h3, .blog-right h3, .recent-posts h4, .comments h4, .contact h3{
+	color: #6ea145;
+    font-size: 2em;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+ body, html, #allmap {
+            width: 100%;
+            height: 500px;
+            /*overflow: hidden;*/
+            margin-top: 50px;
+            font-family: "微软雅黑";
+}
+.contact-form {
+    padding-top: 3em;
+}
+.contact-form-left p {
+    color: #999;
+    font-size: 14px;
+    margin: 0 auto 1em;
+    line-height: 1.8em;
+}
+.contact-form-left a {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.contact h4 {
+    color: #6ea145;
+    font-size: 1.5em;
+    margin: 0 0 1em 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type="text"], input[type="email"], textarea {
+    display: inline-block;
+    background: none;
+    border: 1px solid #C7C5C5;
+    width: 75%;
+    outline: none;
+    font-size: 14px;
+    color: #C3C3C3;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+.contact input[type="email"] {
+    margin: 0 .9em;
+}
+.contact textarea {
+    width: 100%;
+    display: block;
+    min-height: 150px;
+    resize: none;
+    margin: 1em 0;
+}
+.contact input[type="submit"] {
+    background: #6ea145;
+    border: none;
+    padding: 10px 0px;
+    width: 21%;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    transition: .5s all;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.contact input[type="submit"]:hover {
+    background: #c6c5c0;
+}
